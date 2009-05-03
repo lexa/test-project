@@ -1,6 +1,6 @@
 #include <QDialog>
 #include "Form_Stuff_Choose.h"
-
+  
 
 Form_Stuff_Choose::Form_Stuff_Choose(QWidget *parent)
         : QDialog(parent)
