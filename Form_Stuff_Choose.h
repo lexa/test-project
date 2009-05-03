@@ -11,8 +11,10 @@ class Form_Stuff_Choose : public QDialog, public Ui::Form_Stuff_Choose
     public:
     Form_Stuff_Choose(QWidget *parent = 0);
 
-    //private slots:
-    //void App_Close();
+    public slots :
+    void MainWindow_Close() {exit(1);};
+//    private slots:
+//    void App_Close();
 };
 
 #endif // FORM_STUFF_CHOOSE_H
