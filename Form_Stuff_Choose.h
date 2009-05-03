@@ -4,6 +4,7 @@
 #include <QDialog>
 #include "ui_Form_Stuff_Choose.h"
 
+//прост окомент
 class Form_Stuff_Choose : public QDialog, public Ui::Form_Stuff_Choose
 {
     Q_OBJECT
